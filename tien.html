@@ -463,7 +463,7 @@
         }
       }
 
-      let final = mainText + decText + " đồng";
+      let final = mainText + decText + " đồng.";
       final = final.charAt(0).toUpperCase() + final.slice(1);
       if(formal && (!dPart || parseInt(dPart)===0) && parseInt(iStr)>0) final += " chẵn.";
       return final;
